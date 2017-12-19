@@ -9,7 +9,7 @@ class DoubanSpider(CrawlSpider):
 
     name="douban_many_movie_spider"
     download_delay=1
-    allowed_domains=[]
+    allowed_domains=["http://movie.douban.com"]
     start_urls=[
         'http://movie.douban.com/top250'
     ]

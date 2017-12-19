@@ -54,7 +54,7 @@ class tbmmSpider(Spider):
         if imgUrl and userId:
             realUrl = "http:"+imgUrl
             file_name = u"%s.jpg" %userId
-            path = os.path.join("E:\spider_pic\\tbmm_pic",file_name)
+            path = os.path.join("C:\spider_file\\tbmm_pic",file_name)
             urllib.request.urlretrieve(realUrl, path)
 
 
