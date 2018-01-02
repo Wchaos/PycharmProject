@@ -60,25 +60,26 @@ for i in range(1,5):
         print("正在抓取第"+str(i)+"页。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。")
         url2="http://d.weibo.com/100803?pids=Pl_Discover_Pt6Rank__5&cfs=920&Pl_Discover_Pt6Rank__5_filter=hothtlist_type=0&Pl_Discover_Pt6Rank__5_page="+str(i)+"&ajaxpagelet=1&__ref=/100803&_t=FM_149273744327929"
         html=session.get(url2).content
+        # print(html)
 
         ###########正则表达式匹配#######################
         name=re.findall("Pl_Discover_Pt6Rank__5(.*?)</script>",html,re.S)
         for each in name:
-            # print each
+            print(each)
             k=re.findall('"html":"(.*?)"}',each,re.S)
-            # print each
+            print(each)
             for each1 in k:
                 k1=str(each1).replace('\\t',"").replace('\\n','').replace('\\','').replace('#','')
-                # print k1
+                print(k1)
                 k2=re.findall('alt="(.*?)" class="pic">',str(k1),re.S)
                 for each2 in k2:
-                    # print each2
+                    print(each2)
                     top_name.append(each2)
                 k3=re.findall('</span><a target="_blank" href="(.*?)" class="S_txt1"  >',str(k1),re.S)
-                # print "k3Length:"
-                # print len(k3)
+                print("k3Length:")
+                print (len(k3))
                 for x in range(len(k3)):
-                    # print(k3[x])
+                    print(k3[x])
                     newUrl = "https:"+k3[x].replace("?from=faxian_huati","/topic_album?from=page_100808&mod=TAB#place")
                     page_id = k3[x].lstrip("//weibo.com/p/").rstrip("?from=faxian_huati")
                     pageids .append(page_id)

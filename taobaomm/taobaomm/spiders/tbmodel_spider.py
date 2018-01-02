@@ -13,6 +13,7 @@ class tbmmSpider(Spider):
     name = "taobaomm"
     allow_domians = ["mm.taobao.com"]
 
+
     def start_requests(self):
         url = "https://mm.taobao.com/tstar/search/tstar_model.do?_input_charset=utf-8"
         for i in range(1, 60):
