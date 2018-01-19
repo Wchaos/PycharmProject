@@ -29,7 +29,7 @@ logging.getLogger("selenium").setLevel(logging.WARNING)  # 将selenium的日志�
     建议买几十个，实际生产建议100+，微博反爬得厉害，太频繁了会出现302转移。
 """
 myWeiBo = [
-    ('17084633974', 'a601751'),
+    ('17084633974', 'haha123456'),
 ]
 
 

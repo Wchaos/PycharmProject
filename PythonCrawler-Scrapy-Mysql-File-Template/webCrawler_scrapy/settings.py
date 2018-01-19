@@ -95,7 +95,7 @@ ITEM_PIPELINES = {
 
 #Mysql数据库的配置信息
 MYSQL_HOST = 'localhost'
-MYSQL_DBNAME = 'testdb'         #数据库名字，请修改
+MYSQL_DBNAME = 'douban_data'         #数据库名字，请修改
 MYSQL_USER = 'root'             #数据库账号，请修改 
 MYSQL_PASSWD = ''         #数据库密码，请修改
 MYSQL_PORT = 3306               #数据库端口，在dbhelper中使用

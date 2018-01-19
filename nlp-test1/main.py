@@ -1,18 +1,16 @@
-from __future__ import division
-import nltk
-import urllib.request
-from bs4 import BeautifulSoup
+from scrapy.mail import MailSender
+mailer = mailer = MailSender(
+            smtphost = "smtp.163.com",  # 发送邮件的服务器
+            mailfrom = "wangchao_1833@163.com",   # 邮件发送者
+            smtpuser = "wangchao_1833@163.com",   # 用户名
+            smtppass = "wch93817",  # 发送邮箱的密码不是你注册时的密码，而是授权码！！！切记！
+            smtpport = 25   # 端口号
+        )
 
-url = "http://news.bbc.co.uk/2/hi/health/2284783.stm"
-html = urllib.request.urlopen(url).read()
-# print(html[:60])
-# print(html)
-raw1 = BeautifulSoup(html,"lxml")
-raw = raw1.get_text()
-print(raw)
-
-#from nltk import clean_html
-# from bs4 import BeautifulSoup
-# from BeautifulSoup import BeautifulStoneSoup
-#
-# raw = BeautifulSoup.get_text(html)
+recv = "1428554573@qq.com"
+subject = "测试"
+body = "测试,授权码获取成功以后一定要妥善保存，原因你懂得！！"
+cc = ["wangchao@qgbest.com"]
+# subject=subject.decode().encode("utf-8")
+# body=body.decode().encode("utf-8")
+mailer.send(to=recv, subject=subject, body=body, cc=cc)
