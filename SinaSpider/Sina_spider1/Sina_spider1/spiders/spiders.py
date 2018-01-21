@@ -11,11 +11,9 @@ class Spider(CrawlSpider):
     name = "sinaSpider"
     host = "https://weibo.cn"
     start_urls = [
-        5235640836,
-        5676304901,
-        #  5871897095, 2139359753, 5579672076, 2517436943, 5778999829, 5780802073, 2159807003,
-        # 1756807885, 3378940452, 5762793904, 1885080105, 5778836010, 5722737202, 3105589817, 5882481217, 5831264835,
-        # 2717354573, 3637185102, 1934363217, 5336500817, 1431308884, 5818747476, 5073111647, 5398825573, 2501511785,
+        5235640836, 5676304901,5871897095, 2139359753, 5579672076, 2517436943, 5778999829, 5780802073, 2159807003,
+        1756807885, 3378940452, 5762793904, 1885080105, 5778836010, 5722737202, 3105589817, 5882481217, 5831264835,
+        2717354573, 3637185102, 1934363217, 5336500817, 1431308884, 5818747476, 5073111647, 5398825573, 2501511785,
     ]
     scrawl_ID = set(start_urls)  # 记录待爬的微博ID
     finish_ID = set()  # 记录已爬的微博ID
@@ -38,10 +36,10 @@ class Spider(CrawlSpider):
             url_fans = "https://weibo.cn/%s/fans" % ID
             url_tweets = "https://weibo.cn/%s/profile?filter=1&page=1" % ID
             url_information0 = "https://weibo.cn/attgroup/opening?uid=%s" % ID
-            # yield Request(url=url_follows, meta={"item": followsItems, "result": follows},
-            #               callback=self.parse3)  # 去爬关注人
-            # yield Request(url=url_fans, meta={"item": fansItems, "result": fans}, callback=self.parse3)  # 去爬粉丝
-            # yield Request(url=url_information0, meta={"ID": ID}, callback=self.parse0)  # 去爬个人信息
+            yield Request(url=url_follows, meta={"item": followsItems, "result": follows},
+                          callback=self.parse3)  # 去爬关注人
+            yield Request(url=url_fans, meta={"item": fansItems, "result": fans}, callback=self.parse3)  # 去爬粉丝
+            yield Request(url=url_information0, meta={"ID": ID}, callback=self.parse0)  # 去爬个人信息
             yield Request(url=url_tweets, meta={"ID": ID}, callback=self.parse2)  # 去爬微博
 
     def parse0(self, response):
@@ -108,10 +106,10 @@ class Spider(CrawlSpider):
 
     def parse2(self, response):
         """ 抓取微博数据 """
-        print("========33333333=======")
+        # print("========33333333=======")
         selector = Selector(response)
         tweets = selector.xpath('body/div[@class="c" and @id]')
-        print(tweets)
+        # print(tweets)
         for tweet in tweets:
             tweetsItems = TweetsItem()
             id = tweet.xpath('@id').extract_first()  # 微博ID

@@ -36,16 +36,16 @@ class Spider(RedisSpider):
         ID = re.findall('(\d+)/info', response.url)[0]
         try:
             text1 = ";".join(selector.xpath('body/div[@class="c"]//text()').extract())  # 获取标签里的所有text()
-            nickname = re.findall('昵称[：:]?(.*?);'.decode('utf8'), text1)
-            gender = re.findall('性别[：:]?(.*?);'.decode('utf8'), text1)
-            place = re.findall('地区[：:]?(.*?);'.decode('utf8'), text1)
-            briefIntroduction = re.findall('简介[：:]?(.*?);'.decode('utf8'), text1)
-            birthday = re.findall('生日[：:]?(.*?);'.decode('utf8'), text1)
-            sexOrientation = re.findall('性取向[：:]?(.*?);'.decode('utf8'), text1)
-            sentiment = re.findall('感情状况[：:]?(.*?);'.decode('utf8'), text1)
-            vipLevel = re.findall('会员等级[：:]?(.*?);'.decode('utf8'), text1)
-            authentication = re.findall('认证[：:]?(.*?);'.decode('utf8'), text1)
-            url = re.findall('互联网[：:]?(.*?);'.decode('utf8'), text1)
+            nickname = re.findall('昵称[：:]?(.*?);', text1)
+            gender = re.findall('性别[：:]?(.*?);', text1)
+            place = re.findall('地区[：:]?(.*?);', text1)
+            briefIntroduction = re.findall('简介[：:]?(.*?);', text1)
+            birthday = re.findall('生日[：:]?(.*?);', text1)
+            sexOrientation = re.findall('性取向[：:]?(.*?);', text1)
+            sentiment = re.findall('感情状况[：:]?(.*?);', text1)
+            vipLevel = re.findall('会员等级[：:]?(.*?);', text1)
+            authentication = re.findall('认证[：:]?(.*?);', text1)
+            url = re.findall('互联网[：:]?(.*?);', text1)
 
             informationItem["_id"] = ID
             if nickname and nickname[0]:
@@ -86,9 +86,9 @@ class Spider(RedisSpider):
                     selector = etree.HTML(r.content)
                     texts = ";".join(selector.xpath('//body//div[@class="tip2"]/a//text()'))
                     if texts:
-                        num_tweets = re.findall('微博\[(\d+)\]'.decode('utf8'), texts)
-                        num_follows = re.findall('关注\[(\d+)\]'.decode('utf8'), texts)
-                        num_fans = re.findall('粉丝\[(\d+)\]'.decode('utf8'), texts)
+                        num_tweets = re.findall('微博\[(\d+)\]', texts)
+                        num_follows = re.findall('关注\[(\d+)\]', texts)
+                        num_fans = re.findall('粉丝\[(\d+)\]', texts)
                         if num_tweets:
                             informationItem["Num_Tweets"] = int(num_tweets[0])
                         if num_follows:
@@ -118,15 +118,15 @@ class Spider(RedisSpider):
                 id = div.xpath('@id').extract_first()  # 微博ID
                 content = div.xpath('div/span[@class="ctt"]//text()').extract()  # 微博内容
                 cooridinates = div.xpath('div/a/@href').extract()  # 定位坐标
-                like = re.findall('赞\[(\d+)\]'.decode('utf8'), div.extract())  # 点赞数
-                transfer = re.findall('转发\[(\d+)\]'.decode('utf8'), div.extract())  # 转载数
-                comment = re.findall('评论\[(\d+)\]'.decode('utf8'), div.extract())  # 评论数
+                like = re.findall('赞\[(\d+)\]', div.extract())  # 点赞数
+                transfer = re.findall('转发\[(\d+)\]', div.extract())  # 转载数
+                comment = re.findall('评论\[(\d+)\]', div.extract())  # 评论数
                 others = div.xpath('div/span[@class="ct"]/text()').extract()  # 求时间和使用工具（手机或平台）
 
                 tweetsItems["_id"] = ID + "-" + id
                 tweetsItems["ID"] = ID
                 if content:
-                    tweetsItems["Content"] = " ".join(content).strip('[位置]'.decode('utf8'))  # 去掉最后的"[位置]"
+                    tweetsItems["Content"] = " ".join(content).strip('[位置]')  # 去掉最后的"[位置]"
                 if cooridinates:
                     cooridinates = re.findall('center=([\d.,]+)', cooridinates[0])
                     if cooridinates:
@@ -138,7 +138,7 @@ class Spider(RedisSpider):
                 if comment:
                     tweetsItems["Comment"] = int(comment[0])
                 if others:
-                    others = others[0].split('来自'.decode('utf8'))
+                    others = others[0].split('来自')
                     tweetsItems["PubTime"] = others[0].replace(u"\xa0", "")
                     if len(others) == 2:
                         tweetsItems["Tools"] = others[1].replace(u"\xa0", "")
@@ -147,7 +147,7 @@ class Spider(RedisSpider):
                 print(e)
                 pass
 
-        url_next = selector.xpath('body/div[@class="pa" and @id="pagelist"]/form/div/a[text()="下页"]/@href'.decode('utf8')).extract()
+        url_next = selector.xpath('body/div[@class="pa" and @id="pagelist"]/form/div/a[text()="下页"]/@href').extract()
         if url_next:
             yield Request(url=self.host + url_next[0], callback=self.parse_tweets, dont_filter=True)
 
@@ -160,7 +160,7 @@ class Spider(RedisSpider):
         else:
             ID = re.findall('(\d+)/fans', response.url)[0]
             flag = False
-        urls = selector.xpath('//a[text()="关注他" or text()="关注她"]/@href'.decode('utf')).extract()
+        urls = selector.xpath('//a[text()="关注他" or text()="关注她"]/@href').extract()
         uids = re.findall('uid=(\d+)', ";".join(urls), re.S)
         for uid in uids:
             relationshipsItem = RelationshipsItem()
@@ -169,6 +169,6 @@ class Spider(RedisSpider):
             yield relationshipsItem
             yield Request(url="https://weibo.cn/%s/info" % uid, callback=self.parse_information)
 
-        next_url = selector.xpath('//a[text()="下页"]/@href'.decode('utf8')).extract()
+        next_url = selector.xpath('//a[text()="下页"]/@href').extract()
         if next_url:
             yield Request(url=self.host + next_url[0], callback=self.parse_relationship, dont_filter=True)
