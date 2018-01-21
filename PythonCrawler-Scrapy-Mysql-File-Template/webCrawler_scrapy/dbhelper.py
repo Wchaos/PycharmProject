@@ -93,10 +93,11 @@ class TestDBHelper():
         self.dbHelper.createDatabase() 
     #测试创建表
     def testCreateTable(self):
-        # sql="create table testtable(id int primary key auto_increment,name varchar(50),url varchar(200))"
-        sql = "create table weibo_wap(id int primary key auto_increment,user_id varchar(50), _id varchar(100),\
-         content varchar(300), co_oridinates varchar(50), like_num varchar(50), transfer_num varchar(50), \
-         comment_num varchar(50), pub_time varchar(50), tools varchar(50))"
+        sql="create table 58pbdndb(id INT NOT NULL AUTO_INCREMENT,itle VARCHAR(100) NOT NULL,price VARCHAR(40) NOT NULL," \
+            " quality VARCHAR(40),area VARCHAR(40),time VARCHAR(40) NOT NULL, PRIMARY KEY ( id ))DEFAULT CHARSET=utf8;"
+        # sql = "create table weibo_wap(id int primary key auto_increment,user_id varchar(50), _id varchar(100),\
+        #  content varchar(300), co_oridinates varchar(50), like_num varchar(50), transfer_num varchar(50), \
+        #  comment_num varchar(50), pub_time varchar(50), tools varchar(50))"
         self.dbHelper.createTable(sql)
     #测试插入
     def testInsert(self):

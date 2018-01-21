@@ -1,7 +1,7 @@
 # encoding=utf-8
 import random
-from user_agents import agents
-from cookies import cookies
+from Sina_spider2.user_agents import agents
+from Sina_spider2.cookies import cookies
 
 
 class UserAgentMiddleware(object):
@@ -17,4 +17,6 @@ class CookiesMiddleware(object):
 
     def process_request(self, request, spider):
         cookie = random.choice(cookies)
+        print("====cookie=====")
+        print(cookie)
         request.cookies = cookie

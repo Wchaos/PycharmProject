@@ -1,0 +1,90 @@
+1516332248962	geckodriver	INFO	geckodriver 0.19.0 (f0b5f3476d8b05a3bacebb06056ff933e26a17fa 2017-09-16)
+1516332248989	geckodriver	INFO	Listening on 127.0.0.1:63826
+1516332251094	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangchao\\AppData\\Local\\Temp\\rust_mozprofile.udGPrKyl0KdM"
+1516332251915	Marionette	INFO	Enabled via --marionette
+1516332253070	Marionette	INFO	Listening on port 63844
+1516332253202	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516332253255	Marionette	DEBUG	Register listener.js for window 4294967297
+1516332253308	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516332253427	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516332253427	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1516332254014	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.qichacha.com/user_login"
+1516332254147	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.qichacha.com/user_login"
+[Parent 5500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/netmonitor/src/connector/firefox-connector.js, line 74: TypeError: this.tabTarget is null
+[Child 8952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1516332472774	geckodriver	INFO	geckodriver 0.19.0 (f0b5f3476d8b05a3bacebb06056ff933e26a17fa 2017-09-16)
+1516332472810	geckodriver	INFO	Listening on 127.0.0.1:64581
+1516332474923	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangchao\\AppData\\Local\\Temp\\rust_mozprofile.YZLjblD1pN7B"
+1516332475409	Marionette	INFO	Enabled via --marionette
+[Child 8392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1516332476536	Marionette	INFO	Listening on port 64595
+1516332476946	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516332476990	Marionette	DEBUG	Register listener.js for window 4294967297
+1516332477044	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516332477142	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516332477143	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1516332477807	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.qichacha.com/user_login"
+1516332477915	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.qichacha.com/user_login"
+[Parent 7492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1516332606125	geckodriver	INFO	geckodriver 0.19.0 (f0b5f3476d8b05a3bacebb06056ff933e26a17fa 2017-09-16)
+1516332606142	geckodriver	INFO	Listening on 127.0.0.1:64930
+1516332608291	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangchao\\AppData\\Local\\Temp\\rust_mozprofile.SbKZVBwKjd6g"
+1516332608787	Marionette	INFO	Enabled via --marionette
+1516332609903	Marionette	INFO	Listening on port 64940
+1516332610321	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516332610411	Marionette	DEBUG	Register listener.js for window 4294967297
+1516332610477	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516332610594	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516332610594	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1516332611438	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.qichacha.com/user_login"
+1516332611578	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.qichacha.com/user_login"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/netmonitor/src/connector/firefox-connector.js, line 74: TypeError: this.tabTarget is null
+[Parent 10060, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 18316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1516332694348	geckodriver	INFO	geckodriver 0.19.0 (f0b5f3476d8b05a3bacebb06056ff933e26a17fa 2017-09-16)
+1516332694372	geckodriver	INFO	Listening on 127.0.0.1:65186
+1516332696511	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangchao\\AppData\\Local\\Temp\\rust_mozprofile.MlE5OXHPdNsn"
+1516332697027	Marionette	INFO	Enabled via --marionette
+1516332698135	Marionette	INFO	Listening on port 65195
+1516332698550	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516332698630	Marionette	DEBUG	Register listener.js for window 4294967297
+1516332698684	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516332698839	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516332698840	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1516332699681	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.qichacha.com/user_login"
+1516332699822	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.qichacha.com/user_login"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/netmonitor/src/connector/firefox-connector.js, line 74: TypeError: this.tabTarget is null
+[Parent 15492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 17048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

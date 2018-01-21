@@ -37,7 +37,11 @@ class Spider(RedisSpider):
         try:
             text1 = ";".join(selector.xpath('body/div[@class="c"]//text()').extract())  # 获取标签里的所有text()
             nickname = re.findall('昵称[：:]?(.*?);', text1)
+<<<<<<< HEAD
             gender = re.findall('性别[：:]?(.*?);', text1)
+=======
+            gender = re.findall('import', text1)
+>>>>>>> de16133d1d1c59ab06056fa107714828be89bd20
             place = re.findall('地区[：:]?(.*?);', text1)
             briefIntroduction = re.findall('简介[：:]?(.*?);', text1)
             birthday = re.findall('生日[：:]?(.*?);', text1)

@@ -9,13 +9,13 @@ from scrapy.http import Request
 from Sina_spider2.items import TweetsItem
 
 
-class Spider(RedisSpider):
+class Spider2(RedisSpider):
     name = "tweetsSpider"
-    host = "http://weibo.cn"
+    host = "https://weibo.cn"
     redis_key = "tweetsSpider:start_urls"
     start_urls = []
     for ID in weiboID:
-        url = "http://weibo.cn/%s/profile?filter=1&page=1" % ID
+        url = "https://weibo.cn/%s/profile?filter=1&page=1" % ID
         start_urls.append(url)
 
     def start_requests(self):
@@ -62,10 +62,10 @@ class Spider(RedisSpider):
         if url_next:
             yield Request(url=self.host + url_next[0], callback=self.parse)
         else:  # 如果没有下一页即表示该用户的微博已经爬完了，接下来爬第一页的关注，加入待爬队列
-            urlFollows = "http://weibo.cn/%s/follow" % ID
+            urlFollows = "https://weibo.cn/%s/follow" % ID
             idFollows = self.getNextID(urlFollows, response.request.cookies)
             for ID in idFollows:
-                url = "http://weibo.cn/%s/profile?filter=1&page=1" % ID
+                url = "https://weibo.cn/%s/profile?filter=1&page=1" % ID
                 yield Request(url=url, callback=self.parse)
 
     def getNextID(self, url, cookies):

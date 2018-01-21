@@ -10,13 +10,13 @@ from scrapy.http import Request
 from Sina_spider2.items import InformationItem
 
 
-class Spider(RedisSpider):
+class Spider1(RedisSpider):
     name = "informationSpider"
-    host = "http://weibo.cn"
+    host = "https://weibo.cn"
     redis_key = "informationSpider:start_urls"
     start_urls = []
     for ID in weiboID:
-        url = url_information1 = "http://weibo.cn/%s/info" % ID
+        url = url_information1 = "https://weibo.cn/%s/info" % ID
         start_urls.append(url)
 
     def start_requests(self):
@@ -65,7 +65,7 @@ class Spider(RedisSpider):
         if url:
             informationItems["URL"] = url[0]
 
-        urlothers = "http://weibo.cn/attgroup/opening?uid=%s" % ID
+        urlothers = "https://weibo.cn/attgroup/opening?uid=%s" % ID
         r = requests.get(urlothers, cookies=response.request.cookies)
         if r.status_code == 200:
             selector = etree.HTML(r.content)
@@ -82,10 +82,10 @@ class Spider(RedisSpider):
                     informationItems["Num_Fans"] = int(num_fans[0])
         yield informationItems
 
-        urlFollows = "http://weibo.cn/%s/follow" % ID  # 爬第一页的关注，加入待爬队列
+        urlFollows = "https://weibo.cn/%s/follow" % ID  # 爬第一页的关注，加入待爬队列
         idFollows = self.getNextID(urlFollows, response.request.cookies)
         for ID in idFollows:
-            url = "http://weibo.cn/%s/profile?filter=1&page=1" % ID
+            url = "https://weibo.cn/%s/profile?filter=1&page=1" % ID
             yield Request(url=url, callback=self.parse)
 
     def getNextID(self, url, cookies):
