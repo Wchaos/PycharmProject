@@ -14,8 +14,8 @@
       <file leaf-file-name="sina_login_direct.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sina_login_direct.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-464">
-              <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
+            <state relative-caret-position="234">
+              <caret line="133" column="43" lean-forward="false" selection-start-line="133" selection-start-column="43" selection-end-line="133" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -24,7 +24,7 @@
       <file leaf-file-name="sina_login_phone.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sina_login_phone.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1611">
+            <state relative-caret-position="2067">
               <caret line="56" column="52" lean-forward="false" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="sina_login_by_selenium.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sina_login_by_selenium.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="351">
               <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -58,7 +58,7 @@
       <file leaf-file-name="code_verification.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code_verification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3507">
+            <state relative-caret-position="4524">
               <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="19" />
               <folding />
             </state>
@@ -94,9 +94,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1935" />
+    <option name="y" value="2" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -115,6 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,13 +127,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editing.templates" />
-    <property name="last_opened_file_path" value="C:/workspace/python_workspace/Tensorflow-Project-Template" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SinaSpider/Sina_spider1" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,13 +244,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="1935" y="2" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16950959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17110874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4173913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4173913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961375" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -599,7 +599,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code_verification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3507">
+        <state relative-caret-position="4524">
           <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="19" />
           <folding />
         </state>
@@ -615,7 +615,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sina_login_phone.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1611">
+        <state relative-caret-position="2067">
           <caret line="56" column="52" lean-forward="false" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -625,7 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sina_login_by_selenium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="351">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -635,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sina_login_direct.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-464">
-          <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
+        <state relative-caret-position="234">
+          <caret line="133" column="43" lean-forward="false" selection-start-line="133" selection-start-column="43" selection-end-line="133" selection-end-column="43" />
           <folding />
         </state>
       </provider>
