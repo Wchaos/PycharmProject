@@ -27,7 +27,7 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 10
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -57,9 +57,9 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML
 
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
-#    'taobaomm.middlewares.TaobaommSpiderMiddleware': 543,
-#}
+SPIDER_MIDDLEWARES = {
+   # 'taobaomm.middlewares.TestMiddleware': 543,
+}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
@@ -69,14 +69,16 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
-#EXTENSIONS = {
-#    'scrapy.extensions.telnet.TelnetConsole': None,
-#}
+EXTENSIONS = {
+   # 'scrapy.extensions.telnet.TelnetConsole': None,
+   # 'taobaomm.pause.PauseExtension': 0,
+}
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'taobaomm.pipelines.tbModelPipeline': 300,
+   # 'taobaomm.pipelines.testPipeline': 100,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -92,6 +94,14 @@ ITEM_PIPELINES = {
 # Enable showing throttling stats for every response received:
 #AUTOTHROTTLE_DEBUG = False
 
+
+# LOG_FILE = 'crawl.log'
+LOG_LEVEL = 'DEBUG'
+LOG_STDOUT = True
+
+# JOBDIR = 'crawls/temp'
+
+
 # Enable and configure HTTP caching (disabled by default)
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
 #HTTPCACHE_ENABLED = True
@@ -105,3 +115,11 @@ MYSQL_DBNAME = "testdb"
 MYSQL_USER = "root"
 MYSQL_PASSWD = ""
 MYSQL_PORT = 3306
+
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+SCHEDULER_PERSIST = True
+SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.SpiderPriorityQueue'
+REDIS_URL = None  # 一般情况可以省去
+REDIS_HOST = '127.0.0.1'  # 也可以根据情况改成 localhost
+REDIS_PORT = 6379

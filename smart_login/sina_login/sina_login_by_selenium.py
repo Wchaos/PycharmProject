@@ -11,10 +11,11 @@ def login(account, passwd, url):
     # 如果driver没加入环境变量中，那么就需要明确指定其路径
     # 验证于2017年4月11日
     # 直接登陆新浪微博
-    driver = webdriver.Chrome('C:\develop_tools\chromedriver_win32\chromedriver')
+    driver = webdriver.Chrome()
     driver.maximize_window()
     # locator = (By.)
     driver.get(url)
+    time.sleep(1)
     print('开始登陆')
     name_field = driver.find_element_by_id('username')
     name_field.clear()

@@ -14,10 +14,12 @@ from io import StringIO
 import sys
 from PIL import Image
 from math import sqrt
-from ims import ims
+
 from selenium import webdriver
 from selenium.webdriver.remote.command import Command
 from selenium.webdriver.common.action_chains import ActionChains
+
+import ims
 
 PIXELS = []
 
@@ -139,7 +141,7 @@ def draw(browser, ttype):
 
 
 if __name__ == '__main__':
-    browser = webdriver.Chrome('C:\develop_tools\chromedriver_win32\chromedriver')
+    browser = webdriver.Chrome()
     browser.set_window_size(1050, 840)
     browser.get('https://passport.weibo.cn/signin/login?entry=mweibo&r=https://weibo.cn/')
 

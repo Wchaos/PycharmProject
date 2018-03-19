@@ -54,3 +54,36 @@
 #
 #     def spider_opened(self, spider):
 #         spider.logger.info('Spider opened: %s' % spider.name)
+from scrapy.exceptions import CloseSpider
+
+from taobaomm.myexceptions import ExtractError
+
+
+class TestMiddleware(object):
+    def __init__(self,crawler):
+        self.crawler = crawler
+        self.count = 0
+
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(crawler)
+
+    # def process_spider_input(self,response,spider):
+    #     self.count += 1
+    #     if(self.count==5):
+    #         print("======in test middleware========")
+    #         raise CloseSpider("in exception")
+            # raise Exception("test exception in middleware")
+
+
+    def process_spider_exception(self, response, exception, spider):
+        print("=======in spider exception==========")
+        if isinstance(exception,ExtractError):
+            print(exception.reason)
+        pause_method = 2
+        if pause_method == 2:
+            self.crawler.engine.close_spider(spider, 'closespider_blee')
+        elif pause_method == 3:
+            self.crawler._signal_shutdown(9, 0)
+
