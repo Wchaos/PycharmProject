@@ -9,9 +9,6 @@ class UserAgentMiddleware(object):
 
     def process_request(self, request, spider):
         agent = random.choice(agents)
-        # print("=====headers========")
-        print(request.url)
-        print(request.headers)
         request.headers["User-Agent"] = agent
 
 

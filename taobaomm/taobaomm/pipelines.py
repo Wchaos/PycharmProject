@@ -4,6 +4,7 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
+from scrapy.exceptions import CloseSpider
 from twisted.enterprise import adbapi
 import pymysql
 import pymysql.cursors
@@ -28,7 +29,7 @@ class tbModelPipeline(object):
             use_unicode=False,
         )
         dbpool = adbapi.ConnectionPool('pymysql', **dbparams)  # **表示将字典扩展为关键字参数,相当于host=xxx,db=yyy....
-        return cls(dbpool)  # 相当于dbpool付给了这个类，self中可以得到
+        return cls(dbpool)  # 用dbpool创建一个类的对象，此时会调用__init__构造方法
 
     def process_item(self, item, spider):
         query = self.dbpool.runInteraction(self._conditional_insert, item)  # 调用插入的方法
@@ -51,3 +52,19 @@ class tbModelPipeline(object):
         print('--------------database operation exception!!-----------------')
         print('-------------------------------------------------------------')
         print(failue)
+
+class testPipeline(object):
+    def __init__(self,crawler):
+        self.crawler = crawler
+        self.count = 0
+
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(crawler)
+
+    def process_item(self,response,spider):
+        self.count += 1
+        if(self.count==5):
+            print("======in test pipeline========")
+            raise CloseSpider("in exception")

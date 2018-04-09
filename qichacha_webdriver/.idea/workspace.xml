@@ -15,8 +15,13 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qichacha_webdriver/settings.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2088">
               <caret line="58" column="61" lean-forward="false" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+=======
+            <state relative-caret-position="3627">
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="96" selection-end-column="35" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
               <folding />
             </state>
           </provider>
@@ -25,10 +30,27 @@
       <file leaf-file-name="qichacha_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qichacha_webdriver/spiders/qichacha_spider.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="3096">
               <caret line="98" column="49" lean-forward="false" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
+=======
+            <state relative-caret-position="411">
+              <caret line="49" column="65" lean-forward="false" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_webdriver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_webdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,9 +69,17 @@
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qichacha_webdriver/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="108">
               <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding />
+=======
+            <state relative-caret-position="1326">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#38#0" expanded="true" />
+              </folding>
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
             </state>
           </provider>
         </entry>
@@ -57,16 +87,22 @@
       <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qichacha_webdriver/items.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="108">
               <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+=======
+            <state relative-caret-position="858">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_agent.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qichacha_webdriver/user_agent.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qichacha_webdriver/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1044">
               <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding />
@@ -77,6 +113,8 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qichacha_webdriver/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
+=======
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -87,10 +125,15 @@
       <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qichacha_webdriver/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="756">
               <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+=======
+            <state relative-caret-position="936">
+              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
               <folding>
-                <element signature="e#167#178#0" expanded="true" />
+                <element signature="e#167#180#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,17 +151,23 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>driver</find>
+      <find>print</find>
+      <find>cookies</find>
+      <find>webdriver</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/qichacha_webdriver/items.py" />
         <option value="$PROJECT_DIR$/qichacha_webdriver/pipelines.py" />
-        <option value="$PROJECT_DIR$/qichacha_webdriver/middlewares.py" />
+        <option value="$PROJECT_DIR$/qichacha_webdriver/ip_test.py" />
         <option value="$PROJECT_DIR$/qichacha_webdriver/user_agent.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/qichacha_webdriver/items.py" />
+        <option value="$PROJECT_DIR$/test/test_webdriver.py" />
         <option value="$PROJECT_DIR$/qichacha_webdriver/settings.py" />
         <option value="$PROJECT_DIR$/qichacha_webdriver/spiders/qichacha_spider.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/qichacha_webdriver/Test.py" />
         <option value="$PROJECT_DIR$/qichacha_webdriver/main.py" />
         <option value="$PROJECT_DIR$/qichacha_webdriver/test.py" />
@@ -133,6 +182,16 @@
     <option name="x" value="4" />
     <option name="y" value="12" />
     <option name="width" value="1932" />
+=======
+        <option value="$PROJECT_DIR$/qichacha_webdriver/middlewares.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -150,6 +209,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -203,6 +263,42 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="qichacha_webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qichacha_webdriver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qichacha_webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qichacha_webdriver" type="462c0819:PsiDirectoryNode" />
+              <item name="qichacha_webdriver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qichacha_webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qichacha_webdriver" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\qichacha_webdriver\test" />
+      <recent name="C:\PycharmProjects\qichacha_webdriver\qichacha_webdriver" />
+    </key>
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,6 +312,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.set_test">
     <configuration default="false" name="Nosetests in main22.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,6 +331,27 @@
       <method />
     </configuration>
     <configuration default="false" name="main22" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.test_webdriver">
+    <configuration name="ip_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qichacha_webdriver" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="qichacha_webdriver" />
+      <option name="SCRIPT_NAME" value="C:\PycharmProjects\qichacha_webdriver\test\ip_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="qichacha_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -251,18 +369,27 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="set" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="test_webdriver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qichacha_webdriver" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="qichacha_webdriver" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="E:\workspaces\PycharmProject\qichacha_webdriver\qichacha_webdriver\set_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -384,6 +511,23 @@
         <item index="2" class="java.lang.String" itemvalue="Python.set" />
         <item index="3" class="java.lang.String" itemvalue="Python.main22" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in main22.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_webdriver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.qichacha_spider" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ip_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_webdriver" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_webdriver" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ip_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.qichacha_spider" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
       </list>
     </recent_temporary>
   </component>
@@ -400,6 +544,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TestHistory">
     <history-entry file="Nosetests_in_test1_py - 2018.03.20 at 22h 19m 44s.xml">
       <configuration name="Nosetests in test1.py" configurationId="tests" />
@@ -427,6 +572,30 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35861322" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29637527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33369565" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35869566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -434,7 +603,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -450,20 +622,187 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/items.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="108">
+=======
+        <state relative-caret-position="390">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/user_agent.py" />
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="e#167#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2262">
+          <caret line="58" column="55" lean-forward="false" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/spiders/qichacha_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="93" column="62" lean-forward="false" selection-start-line="93" selection-start-column="62" selection-end-line="93" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/buy_ip.txt" />
+    <entry file="file://$PROJECT_DIR$/test/avail_ips2.txt" />
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/user_agent.py" />
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="27" />
+          <folding>
+            <element signature="e#167#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ip_test.py" />
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2262">
+          <caret line="58" column="62" lean-forward="true" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/user_agent.py" />
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="17" />
+          <folding>
+            <element signature="e#167#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/spiders/qichacha_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2262">
+          <caret line="58" column="61" lean-forward="false" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
           <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/user_agent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/user_agent.py" />
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="51" column="112" lean-forward="false" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="112" />
+          <folding>
+            <element signature="e#167#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/spiders/qichacha_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3705">
+          <caret line="107" column="70" lean-forward="true" selection-start-line="107" selection-start-column="70" selection-end-line="107" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2262">
+          <caret line="58" column="61" lean-forward="true" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -479,19 +818,70 @@
         <state relative-caret-position="540">
           <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/settings.py">
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="58" column="61" lean-forward="false" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+        <state relative-caret-position="117">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/user_agent.py" />
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#167#180#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/spiders/qichacha_spider.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/http/response/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="2088">
+          <caret line="58" column="61" lean-forward="false" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+          <folding />
+=======
+        <state relative-caret-position="298">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/spiders/qichacha_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="3096">
           <caret line="98" column="49" lean-forward="false" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
           <folding>
@@ -516,14 +906,23 @@
         <state relative-caret-position="108">
           <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
+=======
+        <state relative-caret-position="351">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/user_agent.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1044">
           <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding />
+=======
+        <state relative-caret-position="298">
+          <caret line="743" column="18" lean-forward="false" selection-start-line="743" selection-start-column="18" selection-end-line="743" selection-end-column="18" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
         </state>
       </provider>
     </entry>
@@ -539,6 +938,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/set_test.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1296">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
@@ -585,19 +985,37 @@
         <state relative-caret-position="1044">
           <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding />
+=======
+        <state relative-caret-position="298">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/middlewares.py">
+    <entry file="file://$PROJECT_DIR$/scrapinghub.yml" />
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/user_agent.py" />
+    <entry file="file://$PROJECT_DIR$/setup.py" />
+    <entry file="file://$PROJECT_DIR$/test/success_ip.txt" />
+    <entry file="file://$PROJECT_DIR$/test/avail_ips2.txt" />
+    <entry file="file://$PROJECT_DIR$/test/buy_ip.txt" />
+    <entry file="file://$PROJECT_DIR$/test/ip_test.py" />
+    <entry file="file://$PROJECT_DIR$/debug.log" />
+    <entry file="file://$PROJECT_DIR$/test/test_webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="756">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+=======
+        <state relative-caret-position="273">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
           <folding>
-            <element signature="e#167#178#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/main22.py" />
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -627,10 +1045,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -671,28 +1096,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/user_agent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding />
+=======
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="579" column="8" lean-forward="false" selection-start-line="579" selection-start-column="8" selection-end-line="579" selection-end-column="8" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="756">
           <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
             <element signature="e#167#178#0" expanded="true" />
+=======
+        <state relative-caret-position="936">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="e#167#180#0" expanded="true" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/spiders/qichacha_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
@@ -739,6 +1185,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha_webdriver/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3627">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="96" selection-end-column="35" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
           <folding />
         </state>
       </provider>
@@ -769,10 +1231,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qichacha_webdriver/spiders/qichacha_spider.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="3096">
           <caret line="98" column="49" lean-forward="false" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
+=======
+        <state relative-caret-position="411">
+          <caret line="49" column="65" lean-forward="false" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+>>>>>>> 3601722eba64ecf304c06f6a5834323b3557bcd1
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

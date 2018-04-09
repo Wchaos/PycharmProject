@@ -3,20 +3,32 @@ import json
 import os
 import urllib
 
+import sys
+
+import time
+from scrapy.exceptions import CloseSpider
 from scrapy.http import FormRequest
 from scrapy.spiders import Spider
+from scrapy_redis.spiders import RedisSpider
 
 from taobaomm.items import tbModelItem
+from taobaomm.myexceptions import ExtractError
 
 
-class tbmmSpider(Spider):
+class tbmmSpider(RedisSpider):
     name = "taobaomm"
     allow_domians = ["mm.taobao.com"]
+    count = 0
+    redis_key = "taobaomm:start_urls"
 
+
+
+    def parse(self, response):
+        self.start_requests()
 
     def start_requests(self):
         url = "https://mm.taobao.com/tstar/search/tstar_model.do?_input_charset=utf-8"
-        for i in range(1, 60):
+        for i in range(1, 100):
             formdata = {"q": "",
                         "viewFlag": "A",
                         "sortType": "default",
@@ -25,6 +37,7 @@ class tbmmSpider(Spider):
                         "searchFansNum": "",
                         "currentPage": str(i),
                         "pageSize": "100"}
+            # time.sleep(5)
             yield FormRequest(url, callback=self.parse_model, formdata=formdata)
 
 
@@ -32,6 +45,12 @@ class tbmmSpider(Spider):
     def parse_model(self, response):
         jsonBody = json.loads(response.body.decode('gbk').encode('utf-8'))
         models = jsonBody['data']['searchDOList']
+        self.count += 1
+        if self.count == 5:
+            raise ExtractError("test exception")
+
+            # os.system("pause")
+            # raise CloseSpider("test this exception ")
 
         for dict in models:
             modelItem = tbModelItem()
@@ -49,7 +68,7 @@ class tbmmSpider(Spider):
             modelItem['weight'] = dict['weight']
 
             yield modelItem
-            self.downloadImage(modelItem['cardUrl'], modelItem['userId'])
+            # self.downloadImage(modelItem['cardUrl'], modelItem['userId'])
 
     def downloadImage(self,imgUrl,userId):
         if imgUrl and userId:
