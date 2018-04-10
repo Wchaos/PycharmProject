@@ -3,9 +3,9 @@
 
 ---
 
-##**第一部分 scrapy入门**
+##第一部分 scrapy入门
 
-###**创建scrapy项目**
+###创建scrapy项目
 使用命令行创建一个scrapy项目
 >
 >     scrapy startproject [projectname]
